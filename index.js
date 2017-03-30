@@ -4,7 +4,7 @@ var mongoClient = require("mongodb").MongoClient;
 var app = express();
 
 var port = process.env.PORT || 5000;
-var mongoURL = process.env.MONGOHQ_URL || "mongodb://127.0.0.1:27017/exampleDb"
+var mongoURL = process.env.MONGOHQ_URL || "mongodb://wilsonvarghese:Hexwils2222@ds141410.mlab.com:41410/sampledb"
 
 var data = null;
 
