@@ -1,0 +1,13 @@
+# The deployment section should be excluded until
+# it is explicitly included in module 5
+#test
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: wilsonportfolio 
+
+test:
+  override:    
+    - mocha

@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "A Portfolio application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "directories": {
+    "test": "test"
+  },    
+  "author": "Wilson Varghese",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25",
+    "mocha": "1.20.1",
+    "supertest": "1.1.0"      
+  }
+}
